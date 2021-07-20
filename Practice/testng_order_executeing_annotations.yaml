@@ -1,0 +1,7 @@
+name: Suite_Order_execute
+configFailurePolicy: skip
+tests:
+  - name: Test
+    classes:
+      - TestCases.OrderofAnnotation
+
