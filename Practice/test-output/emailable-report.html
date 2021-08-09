@@ -8,42 +8,46 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite_parallel</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">10,368</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">3,063</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite_parallel</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">TestCases.Parallel</td><td><a href="#m0">browserlaunch</a></td><td rowspan="1">1626742995084</td><td rowspan="1">10298</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">TestCases.Parallel</td><td><a href="#m1">executSessionOne</a></td><td rowspan="1">1626743005437</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">executSessionThree</a></td><td rowspan="1">1626743005437</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">executeSessionTwo</a></td><td rowspan="1">1626743005437</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">TestCases.BrokenLinks</td><td><a href="#m0">browserlaunch</a></td><td rowspan="1">1628514824313</td><td rowspan="1">3001</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">TestCases.BrokenLinks</td><td><a href="#m1">Alllinks</a></td><td rowspan="1">1628514827329</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">TestCases.Parallel#browserlaunch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
-Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+<h2>Default test</h2><h3 id="m0">TestCases.BrokenLinks#browserlaunch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 92.0.4515.131 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
 System info: host: &apos;RAMMAHI-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAE7D3+124883]
-	Ordinal0 [0x00AAE7B1+124849]
-	GetHandleVerifier [0x00CF8688+193832]
-	GetHandleVerifier [0x00D13AC5+305509]
-	GetHandleVerifier [0x00D1021B+291003]
-	GetHandleVerifier [0x00D0E0AC+282444]
-	GetHandleVerifier [0x00D34A90+440624]
-	GetHandleVerifier [0x00D347FC+439964]
-	GetHandleVerifier [0x00D3154B+426987]
-	GetHandleVerifier [0x00D14FFD+310941]
-	GetHandleVerifier [0x00D15D8E+314414]
-	GetHandleVerifier [0x00D15D19+314297]
-	GetHandleVerifier [0x00DD31EC+1089676]
-	GetHandleVerifier [0x00DD17C9+1082985]
-	GetHandleVerifier [0x00DD13A3+1081923]
-	GetHandleVerifier [0x00ECD9FD+2115741]
-	Ordinal0 [0x00BFB82E+1488942]
-	Ordinal0 [0x00B95A7D+1071741]
-	Ordinal0 [0x00B9559B+1070491]
-	Ordinal0 [0x00B954B1+1070257]
-	Ordinal0 [0x00BCFF53+1310547]
-	BaseThreadInitThunk [0x758E336A+18]
-	RtlInitializeExceptionChain [0x77D49F72+99]
-	RtlInitializeExceptionChain [0x77D49F45+54]
+	Ordinal0 [0x0103E7D3+124883]
+	Ordinal0 [0x0103E7B1+124849]
+	GetHandleVerifier [0x01288688+193832]
+	GetHandleVerifier [0x012A3AC5+305509]
+	GetHandleVerifier [0x012A021B+291003]
+	GetHandleVerifier [0x0129E0AC+282444]
+	GetHandleVerifier [0x012C4A90+440624]
+	GetHandleVerifier [0x012C47FC+439964]
+	GetHandleVerifier [0x012C154B+426987]
+	GetHandleVerifier [0x012A4FFD+310941]
+	GetHandleVerifier [0x012A5D8E+314414]
+	GetHandleVerifier [0x012A5D19+314297]
+	GetHandleVerifier [0x013631EC+1089676]
+	GetHandleVerifier [0x013617C9+1082985]
+	GetHandleVerifier [0x013613A3+1081923]
+	GetHandleVerifier [0x0145D9FD+2115741]
+	Ordinal0 [0x0118B82E+1488942]
+	Ordinal0 [0x01125A7D+1071741]
+	Ordinal0 [0x0112559B+1070491]
+	Ordinal0 [0x011254B1+1070257]
+	Ordinal0 [0x0115FF53+1310547]
+	BaseThreadInitThunk [0x767D336A+18]
+	RtlInitializeExceptionChain [0x77259F72+99]
+	RtlInitializeExceptionChain [0x77259F45+54]
 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
@@ -66,39 +70,71 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestCases.Parallel.browserlaunch(Parallel.java:17)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestCases.Parallel#executSessionOne</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
-Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+	at TestCases.BrokenLinks.browserlaunch(BrokenLinks.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.BrokenLinks#Alllinks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
+Current browser version is 92.0.4515.131 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
 System info: host: &apos;RAMMAHI-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAE7D3+124883]
-	Ordinal0 [0x00AAE7B1+124849]
-	GetHandleVerifier [0x00CF8688+193832]
-	GetHandleVerifier [0x00D13AC5+305509]
-	GetHandleVerifier [0x00D1021B+291003]
-	GetHandleVerifier [0x00D0E0AC+282444]
-	GetHandleVerifier [0x00D34A90+440624]
-	GetHandleVerifier [0x00D347FC+439964]
-	GetHandleVerifier [0x00D3154B+426987]
-	GetHandleVerifier [0x00D14FFD+310941]
-	GetHandleVerifier [0x00D15D8E+314414]
-	GetHandleVerifier [0x00D15D19+314297]
-	GetHandleVerifier [0x00DD31EC+1089676]
-	GetHandleVerifier [0x00DD17C9+1082985]
-	GetHandleVerifier [0x00DD13A3+1081923]
-	GetHandleVerifier [0x00ECD9FD+2115741]
-	Ordinal0 [0x00BFB82E+1488942]
-	Ordinal0 [0x00B95A7D+1071741]
-	Ordinal0 [0x00B9559B+1070491]
-	Ordinal0 [0x00B954B1+1070257]
-	Ordinal0 [0x00BCFF53+1310547]
-	BaseThreadInitThunk [0x758E336A+18]
-	RtlInitializeExceptionChain [0x77D49F72+99]
-	RtlInitializeExceptionChain [0x77D49F45+54]
+	Ordinal0 [0x0103E7D3+124883]
+	Ordinal0 [0x0103E7B1+124849]
+	GetHandleVerifier [0x01288688+193832]
+	GetHandleVerifier [0x012A3AC5+305509]
+	GetHandleVerifier [0x012A021B+291003]
+	GetHandleVerifier [0x0129E0AC+282444]
+	GetHandleVerifier [0x012C4A90+440624]
+	GetHandleVerifier [0x012C47FC+439964]
+	GetHandleVerifier [0x012C154B+426987]
+	GetHandleVerifier [0x012A4FFD+310941]
+	GetHandleVerifier [0x012A5D8E+314414]
+	GetHandleVerifier [0x012A5D19+314297]
+	GetHandleVerifier [0x013631EC+1089676]
+	GetHandleVerifier [0x013617C9+1082985]
+	GetHandleVerifier [0x013613A3+1081923]
+	GetHandleVerifier [0x0145D9FD+2115741]
+	Ordinal0 [0x0118B82E+1488942]
+	Ordinal0 [0x01125A7D+1071741]
+	Ordinal0 [0x0112559B+1070491]
+	Ordinal0 [0x011254B1+1070257]
+	Ordinal0 [0x0115FF53+1310547]
+	BaseThreadInitThunk [0x767D336A+18]
+	RtlInitializeExceptionChain [0x77259F72+99]
+	RtlInitializeExceptionChain [0x77259F45+54]
 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
 	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
 	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
 	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
@@ -121,117 +157,35 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestCases.Parallel.browserlaunch(Parallel.java:17)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestCases.Parallel#executSessionThree</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
-Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;RAMMAHI-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAE7D3+124883]
-	Ordinal0 [0x00AAE7B1+124849]
-	GetHandleVerifier [0x00CF8688+193832]
-	GetHandleVerifier [0x00D13AC5+305509]
-	GetHandleVerifier [0x00D1021B+291003]
-	GetHandleVerifier [0x00D0E0AC+282444]
-	GetHandleVerifier [0x00D34A90+440624]
-	GetHandleVerifier [0x00D347FC+439964]
-	GetHandleVerifier [0x00D3154B+426987]
-	GetHandleVerifier [0x00D14FFD+310941]
-	GetHandleVerifier [0x00D15D8E+314414]
-	GetHandleVerifier [0x00D15D19+314297]
-	GetHandleVerifier [0x00DD31EC+1089676]
-	GetHandleVerifier [0x00DD17C9+1082985]
-	GetHandleVerifier [0x00DD13A3+1081923]
-	GetHandleVerifier [0x00ECD9FD+2115741]
-	Ordinal0 [0x00BFB82E+1488942]
-	Ordinal0 [0x00B95A7D+1071741]
-	Ordinal0 [0x00B9559B+1070491]
-	Ordinal0 [0x00B954B1+1070257]
-	Ordinal0 [0x00BCFF53+1310547]
-	BaseThreadInitThunk [0x758E336A+18]
-	RtlInitializeExceptionChain [0x77D49F72+99]
-	RtlInitializeExceptionChain [0x77D49F45+54]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestCases.Parallel.browserlaunch(Parallel.java:17)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestCases.Parallel#executeSessionTwo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 89
-Current browser version is 91.0.4472.124 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
-System info: host: &apos;RAMMAHI-PC&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00AAE7D3+124883]
-	Ordinal0 [0x00AAE7B1+124849]
-	GetHandleVerifier [0x00CF8688+193832]
-	GetHandleVerifier [0x00D13AC5+305509]
-	GetHandleVerifier [0x00D1021B+291003]
-	GetHandleVerifier [0x00D0E0AC+282444]
-	GetHandleVerifier [0x00D34A90+440624]
-	GetHandleVerifier [0x00D347FC+439964]
-	GetHandleVerifier [0x00D3154B+426987]
-	GetHandleVerifier [0x00D14FFD+310941]
-	GetHandleVerifier [0x00D15D8E+314414]
-	GetHandleVerifier [0x00D15D19+314297]
-	GetHandleVerifier [0x00DD31EC+1089676]
-	GetHandleVerifier [0x00DD17C9+1082985]
-	GetHandleVerifier [0x00DD13A3+1081923]
-	GetHandleVerifier [0x00ECD9FD+2115741]
-	Ordinal0 [0x00BFB82E+1488942]
-	Ordinal0 [0x00B95A7D+1071741]
-	Ordinal0 [0x00B9559B+1070491]
-	Ordinal0 [0x00B954B1+1070257]
-	Ordinal0 [0x00BCFF53+1310547]
-	BaseThreadInitThunk [0x758E336A+18]
-	RtlInitializeExceptionChain [0x77D49F72+99]
-	RtlInitializeExceptionChain [0x77D49F45+54]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at TestCases.Parallel.browserlaunch(Parallel.java:17)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at TestCases.BrokenLinks.browserlaunch(BrokenLinks.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

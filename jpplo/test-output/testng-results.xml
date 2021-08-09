@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25169" started-at="2021-04-16T01:45:35Z" finished-at="2021-04-16T01:46:00Z">
+  <suite name="Default suite" duration-ms="35239" started-at="2021-08-09T15:19:21Z" finished-at="2021-08-09T15:19:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25169" started-at="2021-04-16T01:45:35Z" finished-at="2021-04-16T01:46:00Z">
+    <test name="Default test" duration-ms="35239" started-at="2021-08-09T15:19:21Z" finished-at="2021-08-09T15:19:56Z">
       <class name="TestCases.HomePage">
-        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:TestCases.HomePage@10fda3d0]" name="browserlaunch" is-config="true" duration-ms="25078" started-at="2021-04-16T01:45:35Z" finished-at="2021-04-16T01:46:00Z">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:TestCases.HomePage@41e36e46]" name="browserlaunch" is-config="true" duration-ms="30155" started-at="2021-08-09T15:19:21Z" finished-at="2021-08-09T15:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.HomePage@10fda3d0]" name="login" duration-ms="20" started-at="2021-04-16T01:46:00Z" finished-at="2021-04-16T01:46:00Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.HomePage@41e36e46]" name="login" duration-ms="5044" started-at="2021-08-09T15:19:51Z" finished-at="2021-08-09T15:19:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

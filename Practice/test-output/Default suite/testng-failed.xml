@@ -3,14 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.Parallel">
+      <class name="TestCases.BrokenLinks">
         <methods>
-          <include name="executeSessionTwo"/>
           <include name="browserlaunch"/>
-          <include name="executSessionOne"/>
-          <include name="executSessionThree"/>
+          <include name="Alllinks"/>
         </methods>
-      </class> <!-- TestCases.Parallel -->
+      </class> <!-- TestCases.BrokenLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

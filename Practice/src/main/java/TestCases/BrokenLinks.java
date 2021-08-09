@@ -48,7 +48,7 @@ public class BrokenLinks {
 	
 	@BeforeMethod
 	public void browserlaunch() {
-		System.setProperty("webdriver.chrome.driver","D:\\new selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\new selenium\\chromedriver_win32 (1)\\chromedriver.exe");
 		
 	driver = new ChromeDriver();
 	driver.get("https://spicejet.com");
