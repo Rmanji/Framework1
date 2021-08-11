@@ -24,6 +24,7 @@ public class HomePage {
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	
 	Thread.sleep(5000);
+	//comment
 	String s1 =driver.findElement(By.xpath("//h1[@class='entry-title']")).getText();
 	    	System.out.println(s1);
 	}
